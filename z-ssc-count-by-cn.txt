@@ -1,0 +1,241 @@
+     40 
+    636 Afghanistan
+    137 Aland Islands
+   3017 Albania
+   1315 Algeria
+     89 American Samoa
+    288 Andorra
+    625 Angola
+      7 Anguilla
+    134 Anonymous Proxy
+      1 Antarctica
+    368 Antigua and Barbuda
+ 105549 Argentina
+   1018 Armenia
+    207 Aruba
+    351 Asia/Pacific Region
+  80528 Australia
+  40034 Austria
+   1093 Azerbaijan
+    780 Bahamas
+  12060 Bahrain
+   3917 Bangladesh
+    514 Barbados
+   2962 Belarus
+  29493 Belgium
+   2595 Belize
+    118 Benin
+    439 Bermuda
+    243 Bhutan
+   2494 Bolivia
+   1198 Bonaire, Sint Eustatius and Saba
+   2751 Bosnia and Herzegovina
+    582 Botswana
+ 248087 Brazil
+      7 British Indian Ocean Territory
+   1226 Brunei Darussalam
+  29578 Bulgaria
+    249 Burkina Faso
+     31 Burundi
+   1022 Cambodia
+    595 Cameroon
+ 212559 Canada
+    223 Cape Verde
+    231 Cayman Islands
+     10 Central African Republic
+  53935 Chile
+ 315034 China
+ 212701 Colombia
+      7 Comoros
+    223 Congo
+     81 Congo, The Democratic Republic of the
+     21 Cook Islands
+  15660 Costa Rica
+    419 Cote D'Ivoire
+   9846 Croatia
+    296 Cuba
+   3317 Cyprus
+  41512 Czech Republic
+  19387 Denmark
+     78 Djibouti
+     12 Dominica
+   5185 Dominican Republic
+   6845 Ecuador
+   6557 Egypt
+  22462 El Salvador
+     69 Equatorial Guinea
+      8 Eritrea
+   6631 Estonia
+    117 Ethiopia
+   7605 Europe
+     10 Falkland Islands (Malvinas)
+    192 Faroe Islands
+    365 Fiji
+  21266 Finland
+ 216692 France
+     13 France, Metropolitan
+    136 French Guiana
+    233 French Polynesia
+    247 Gabon
+     80 Gambia
+   2504 Georgia
+ 950762 Germany
+    924 Ghana
+    160 Gibraltar
+  17690 Greece
+    106 Greenland
+    124 Grenada
+    461 Guadeloupe
+    998 Guam
+  32576 Guatemala
+    265 Guernsey
+     44 Guinea
+      5 Guinea-Bissau
+    117 Guyana
+    410 Haiti
+     26 Holy See (Vatican City State)
+   1199 Honduras
+  69797 Hong Kong
+  19278 Hungary
+   2277 Iceland
+  98149 India
+  17339 Indonesia
+  16385 Iran, Islamic Republic of
+  21006 Iraq
+  28704 Ireland
+    759 Isle of Man
+  16139 Israel
+ 201430 Italy
+   1154 Jamaica
+ 210174 Japan
+    543 Jersey
+   8686 Jordan
+  46248 Kazakhstan
+   3236 Kenya
+      5 Kiribati
+      2 Korea, Democratic People's Republic of
+ 218169 Korea, Republic of
+   6398 Kuwait
+    580 Kyrgyzstan
+    475 Lao People's Democratic Republic
+   6937 Latvia
+  33903 Lebanon
+    182 Lesotho
+     36 Liberia
+   4946 Libya
+    498 Liechtenstein
+   8210 Lithuania
+   6595 Luxembourg
+   1848 Macau
+   2941 Macedonia
+    277 Madagascar
+    165 Malawi
+  38670 Malaysia
+    433 Maldives
+    217 Mali
+   1792 Malta
+     21 Marshall Islands
+    244 Martinique
+     43 Mauritania
+  11133 Mauritius
+     12 Mayotte
+  53493 Mexico
+     18 Micronesia, Federated States of
+  11640 Moldova, Republic of
+    635 Monaco
+   1304 Mongolia
+    312 Montenegro
+      2 Montserrat
+   4168 Morocco
+    593 Mozambique
+    108 Myanmar
+   1945 Namibia
+     10 Nauru
+   1525 Nepal
+ 151419 Netherlands
+   2124 Netherlands Antilles
+   1571 New Caledonia
+  15300 New Zealand
+   9657 Nicaragua
+    136 Niger
+   2604 Nigeria
+      1 Niue
+    139 Northern Mariana Islands
+  29129 Norway
+   1855 Oman
+   4231 Pakistan
+     19 Palau
+   1075 Palestinian Territory
+  15803 Panama
+    266 Papua New Guinea
+   1302 Paraguay
+  86938 Peru
+  35267 Philippines
+ 376665 Poland
+  25062 Portugal
+   4059 Puerto Rico
+   2688 Qatar
+    424 Reunion
+  32238 Romania
+ 210623 Russian Federation
+    313 Rwanda
+      2 Saint Helena
+     53 Saint Kitts and Nevis
+    121 Saint Lucia
+     24 Saint Martin
+     25 Saint Pierre and Miquelon
+     26 Saint Vincent and the Grenadines
+    252 Samoa
+    239 San Marino
+     20 Sao Tome and Principe
+   1484 Satellite Provider
+  46472 Saudi Arabia
+    384 Senegal
+  15486 Serbia
+   4318 Seychelles
+     17 Sierra Leone
+  40570 Singapore
+  12828 Slovakia
+  10356 Slovenia
+     15 Solomon Islands
+     56 Somalia
+  19642 South Africa
+      2 South Sudan
+ 120873 Spain
+   1412 Sri Lanka
+    186 Sudan
+    159 Suriname
+     64 Swaziland
+  90057 Sweden
+  66498 Switzerland
+    855 Syrian Arab Republic
+ 131312 Taiwan
+    356 Tajikistan
+   1200 Tanzania, United Republic of
+  73775 Thailand
+     27 Timor-Leste
+     88 Togo
+      3 Tokelau
+     65 Tonga
+    945 Trinidad and Tobago
+   3624 Tunisia
+  56916 Turkey
+     24 Turkmenistan
+     69 Turks and Caicos Islands
+      3 Tuvalu
+    547 Uganda
+  46017 Ukraine
+  16421 United Arab Emirates
+ 334920 United Kingdom
+4660822 United States
+   2426 Uruguay
+    428 Uzbekistan
+     80 Vanuatu
+  16801 Venezuela
+  40391 Vietnam
+    465 Virgin Islands, British
+    375 Virgin Islands, U.S.
+      9 Wallis and Futuna
+    184 Yemen
+    708 Zambia
+    802 Zimbabwe

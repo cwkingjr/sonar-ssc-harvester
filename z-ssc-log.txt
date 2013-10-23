@@ -1,0 +1,4 @@
+Lines processed: 19497728
+Lines skipped due to errors: 5837
+SSC lines processed: 10793371
+SSC print errors: 6681
