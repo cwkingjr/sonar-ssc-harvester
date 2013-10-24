@@ -35,7 +35,7 @@ FILE_GLOB = "20130910_ssl_certs_*"
 line_counter = 0
 error_counter = 0
 ssc_line_counter = 0
-ssc_print_error_counter = 0 
+ssc_parse_error_counter = 0 
 
 # keep track of IPv4 first quad numbers
 first_quads = dict()
@@ -55,7 +55,7 @@ except Exception as e:
 
 def processLine(jsonline):
 
-    global error_counter, ssc_line_counter, ssc_print_error_counter
+    global error_counter, ssc_line_counter, ssc_parse_error_counter
 
     try:
         data = json.loads(jsonline)
@@ -106,16 +106,21 @@ def processLine(jsonline):
         error_counter += 1 
         return
 
-    if x.get_subject().organizationName == x.get_issuer().organizationName: 
-        ssc_line_counter += 1 
-        try:
-            msg = "%s|%s|%s\n" % ( data['host_ip'], x.get_subject().commonName, 
-                                      x.get_subject().organizationName )
-            cert_f.write(msg)
-        except:
-            print >>sys.stderr, "ERROR: Could not write ssc data on line %d" % line_counter 
+    try:
+        if x.get_subject().organizationName == x.get_issuer().organizationName: 
             ssc_line_counter += 1 
-            ssc_print_error_counter += 1 
+            try:
+                msg = "%s|%s|%s\n" % ( data['host_ip'], x.get_subject().commonName, 
+                                      x.get_subject().organizationName )
+                cert_f.write(msg)
+            except:
+                print >>sys.stderr, "ERROR: Could not write ssc data on line %d" % line_counter 
+                ssc_parse_error_counter += 1 
+    except:
+        print >>sys.stderr, "ERROR: Could not read ssc x509 data on line %d" % line_counter 
+        error_counter += 1 
+        return
+
 
 # push headers to file
 cert_f.write("Self-signed Certificates\n")
@@ -140,8 +145,8 @@ log_f.write("Lines skipped due to errors: %d\n" % error_counter)
 print >>sys.stderr, "SSC lines processed: %d" % ssc_line_counter
 log_f.write("SSC lines processed: %d\n" % ssc_line_counter)
 
-print >>sys.stderr, "SSC print errors: %d" % ssc_print_error_counter
-log_f.write("SSC print errors: %d\n" % ssc_print_error_counter)
+print >>sys.stderr, "SSC parse errors: %d" % ssc_parse_error_counter
+log_f.write("SSC parse errors: %d\n" % ssc_parse_error_counter)
 
 with open('z-ssc-first-quad-counts-quad-count', 'w') as quad_f:
     for k,v in sorted(first_quads.items()):
