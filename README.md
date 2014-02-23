@@ -53,7 +53,7 @@ cut -d\| -f1 z-ssc-hostIp-commonName-organizationName.txt | ./address-2-geoip-co
 
 sed 's/^\s*//'  z-ssc-count-by-cc.txt | sed 's/ /|/' > z-ssc-count-by-cc-piped.txt
 
-grep '^23.' z-ssc-hostIp-commonName-organizationName.txt |less
+grep '^23.' z-ssc-hostIp-commonName-organizationName.txt | less
 
 cut -d\| -f2 z-ssc-hostIp-commonName-organizationName.txt | grep '.com$' > z-ssc-dot-com.txt
 
