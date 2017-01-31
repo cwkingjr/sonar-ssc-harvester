@@ -11,7 +11,7 @@ sudo apt-get install python-pip
 sudo pip install --upgrade setuptools
 ```
 
-###Parellel BZip2
+###Parallel BZip2
 
 Built-in python module bz2 can not decode multi-stream files, which is
 how pbzip2 encodes them.  Project Sonar encoded the cert files with pbzip2,
